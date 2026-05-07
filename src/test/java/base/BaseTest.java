@@ -25,13 +25,13 @@ public class BaseTest {
 
 	}
 
-//	@AfterMethod
-//
-//	public void teardown() {
-//		page.close();
-//		browser.close();
-//		pw.close();
-//
-//	}
+	@AfterMethod
+
+	public void teardown() {
+		page.close();
+     browser.close();
+		pw.close();
+
+	}
 
 }
